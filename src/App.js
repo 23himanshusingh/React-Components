@@ -3,6 +3,7 @@ import Autocomplete from "./components/Autocomplete";
 import ProgressBar from "./components/ProgressBar";
 import TransferList from "./components/TransferList";
 import OTPInput from "./components/OTPinput";
+import TodoList from "./components/TodoList";
 
 import "./styles.css";
 
@@ -13,6 +14,7 @@ const App = () => {
       <ProgressBar />
       <TransferList />
       <OTPInput />
+      <TodoList />
     </div>
   );
 };
