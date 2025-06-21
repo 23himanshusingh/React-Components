@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./styles.css";
+import "../styles.css";
 
 export default function TransferList() {
   const [list1, setList1] = useState(["Item A", "Item B", "Item C"]);
